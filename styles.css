@@ -62,6 +62,9 @@ h3 { font-family: var(--sans); font-weight: 600; letter-spacing: -.01em; color: 
 .button-ghost:hover { border-color: var(--gold); }
 .button-gold { background: var(--gold); color: var(--navy); }
 .button-gold:hover { background: #c4a873; }
+.button-outline { color: var(--white); border: 1px solid rgba(181, 150, 97, .7); }
+.button-outline:hover { border-color: var(--gold); color: var(--gold); }
+.button-outline svg { flex-shrink: 0; }
 
 /* Hero */
 .hero { display: grid; grid-template-columns: 1.15fr .85fr; gap: 64px; align-items: center; padding: 72px 0 104px; }
